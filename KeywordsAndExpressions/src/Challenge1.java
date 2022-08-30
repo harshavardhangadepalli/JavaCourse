@@ -13,11 +13,11 @@ public class Challenge1 {
         System.out.println(name + " managed to get into position "+position+" on the highscore table");
     }
     public static int calculateHighScorePosition(int score){
-        if(score > 1000)
+        if(score >= 1000)
             return 1;
-        if(score > 500 && score < 1000)
+        if(score >= 500)
             return 2;
-        if(score > 100 && score < 500)
+        if(score >= 100)
             return 3;
         return 4;
     }
