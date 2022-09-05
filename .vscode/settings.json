@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "LinkedListExplained/src",
+        "ArraysExplained/src",
+        "demo/src/main/java/com/example/mypackage"
+    ]
+}
